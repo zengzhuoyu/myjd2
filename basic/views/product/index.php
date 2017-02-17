@@ -46,7 +46,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-01.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-02.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -80,7 +80,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-03.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-03.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -97,7 +97,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-01.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-02.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -137,7 +137,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-01.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -154,7 +154,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-02.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -171,7 +171,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-03.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-03.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -188,7 +188,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-01.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -205,7 +205,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 no-margin">
                     <a href="#" class="thumb-holder">
-                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                        <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-small-02.jpg" />
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
@@ -243,7 +243,7 @@
             <div class="product-item">
                 <div class="ribbon red"><span>sale</span></div> 
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-11.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-11.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -266,7 +266,7 @@
             <div class="product-item">
                 <div class="ribbon blue"><span>new!</span></div> 
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-12.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-12.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -289,7 +289,7 @@
         <div class="no-margin carousel-item product-item-holder hover size-medium">
             <div class="product-item">
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-13.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-13.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -312,7 +312,7 @@
             <div class="product-item">
                 <div class="ribbon blue"><span>new!</span></div> 
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-14.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-14.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -335,7 +335,7 @@
             <div class="product-item">
                 <div class="ribbon green"><span>bestseller</span></div> 
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-15.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-15.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -357,7 +357,7 @@
         <div class="no-margin carousel-item product-item-holder hover size-medium">
             <div class="product-item">
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-16.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-16.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -379,7 +379,7 @@
         <div class="no-margin carousel-item product-item-holder hover size-medium">
             <div class="product-item">
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-13.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-13.jpg" />
                 </div>
                 <div class="body">
                     <div class="title">
@@ -402,7 +402,7 @@
             <div class="product-item">
                 <div class="ribbon blue"><span>new!</span></div> 
                 <div class="image">
-                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-14.jpg" />
+                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-14.jpg" />
                 </div>
                 <div class="body">
 
@@ -464,7 +464,7 @@
                             <div class="product-item">
                                 <div class="ribbon red"><span>sale</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-01.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
@@ -490,7 +490,7 @@
                             <div class="product-item">
                                 <div class="ribbon blue"><span>new!</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-02.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -514,7 +514,7 @@
                         <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
                             <div class="product-item">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-03.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -540,7 +540,7 @@
                                 <div class="ribbon red"><span>sale</span></div> 
                                 <div class="ribbon green"><span>bestseller</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-04.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -565,7 +565,7 @@
                             <div class="product-item">
                                 <div class="ribbon red"><span>sale</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-01.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
@@ -590,7 +590,7 @@
                             <div class="product-item">
                                 <div class="ribbon blue"><span>new!</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-02.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -614,7 +614,7 @@
                         <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
                             <div class="product-item">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-03.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -640,7 +640,7 @@
                                 <div class="ribbon red"><span>sale</span></div> 
                                 <div class="ribbon green"><span>bestseller</span></div> 
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-04.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -664,7 +664,7 @@
                         <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
                             <div class="product-item">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-03.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
                                 </div>
                                 <div class="body">
                                     <div class="label-discount clear"></div>
@@ -720,7 +720,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-01.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">
@@ -752,7 +752,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-02.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">
@@ -787,7 +787,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-03.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">
@@ -820,7 +820,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-04.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">
@@ -851,7 +851,7 @@
                         <div class="row">
                             <div class="no-margin col-xs-12 col-sm-4 image-holder">
                                 <div class="image">
-                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-05.jpg" />
+                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-05.jpg" />
                                 </div>
                             </div><!-- /.image-holder -->
                             <div class="no-margin col-xs-12 col-sm-5 body-holder">
