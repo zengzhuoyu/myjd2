@@ -10,3 +10,9 @@ require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
 $config = require(__DIR__ . '/../config/web.php');
 
 (new yii\web\Application($config))->run();
+
+function p($data){
+	echo "<pre>";
+	var_dump($data);
+	die;
+}

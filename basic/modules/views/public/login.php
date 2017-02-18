@@ -1,6 +1,10 @@
+<?php 
+    use yii\bootstrap\ActiveForm;
+    use yii\helpers\Html;//html帮助类 http://www.yiichina.com/doc/guide/2.0/helper-html
+ ?>
+
 <!DOCTYPE html>
 <html class="login-bg">
-    
     <head>
         <title>慕课商城 - 后台管理</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,30 +27,38 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
     
     <body>
+
         <div class="row-fluid login-wrapper">
-            <a class="brand" href="index.html"></a>
-            <form id="w0" action="/index.php?r=admin/public/login" method="post" role="form">
-                <input type="hidden" name="_csrf" value="VGVVTVVZb0UmKzIrLWtCL2VdNB0tLxoQJVU0AQA6JzMwIgQ0Zy0sNw==">
+            <?php 
+                $form = ActiveForm::begin([
+                        'fieldConfig' => [
+                            'template' => '{error}{input}',//{input}就是指定错误信息与和每一个input框的相对位置
+                        ],
+                ]);
+             ?>
                 <div class="span4 box">
                     <div class="content-wrap">
                         <h6>慕课商城 - 后台管理</h6>
-                        <div class="form-group field-admin-adminuser">
-                            <p class="help-block help-block-error"></p>
-                            <input type="text" id="admin-adminuser" class="span12" name="Admin[adminuser]" placeholder="管理员账号"></div>
-                        <div class="form-group field-admin-adminpass">
-                            <p class="help-block help-block-error"></p>
-                            <input type="password" id="admin-adminpass" class="span12" name="Admin[adminpass]" placeholder="管理员密码"></div>
-                        <a href="/index.php?r=admin%2Fpublic%2Fseekpassword" class="forgot">忘记密码?</a>
-                        <div class="form-group field-remember-me">
-                            <div class="remember">
-                                <input type="hidden" name="Admin[rememberMe]" value="0">
-                                <input type="checkbox" id="remember-me" name="Admin[rememberMe]" value="1" checked>
-                                <label for="remember-me">记住我</label></div>
-                        </div>
-                        <button type="submit" class="btn-glow primary login">登录</button></div>
+
+                        <?php echo $form->field($model,'adminuser')->textInput(['class'=>'span12','placeholder'=>'管理员账号']); ?>
+                        <?php echo $form->field($model,'adminpass')->passwordInput(['class'=>'span12','placeholder'=>'管理员密码']); ?>
+
+                        <a href="<?php echo yii\helpers\Url::to(['public/seekpassword']); ?>" class="forgot">忘记密码?</a>
+                        
+                        <?php 
+                            echo $form->field($model,'rememberMe')->checkbox([
+                                'id' => 'remember-me',
+                                'template' => '<div class="remember">{input}<label for="remember-me">记住我</label></div>',
+                            ]);
+                         ?>
+                        
+                        <?php echo Html::submitButton('登录',['class' => 'btn-glow primary login']); ?>
+
                 </div>
-            </form>
+            <?php ActiveForm::end(); ?>
+
         </div>
+
         <!-- scripts -->
         <script src="/assets/admin/js/jquery-latest.js"></script>
         <script src="/assets/admin/js/bootstrap.min.js"></script>

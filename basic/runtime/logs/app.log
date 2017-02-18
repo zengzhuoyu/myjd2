@@ -1,0 +1,696 @@
+2017-02-18 05:53:33 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\models\selef' not found' in D:\xampp\htdocs\myjd2\basic\modules\models\Admin.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-18 05:53:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3Y2QXlQeEgrBG4WTAU.LyMaTgkUAx8LPkFXOQMaShA4W2wkM2I2Dw=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '166'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '51898'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487393613.497
+    'REQUEST_TIME' => 1487393613
+]
+2017-02-18 05:53:52 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::sesssion' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\ServiceLocator.php(75): yii\base\Component->__get('sesssion')
+#1 D:\xampp\htdocs\myjd2\basic\modules\models\Admin.php(46): yii\di\ServiceLocator->__get('sesssion')
+#2 D:\xampp\htdocs\myjd2\basic\modules\controllers\PublicController.php(20): app\modules\models\Admin->login(Array)
+#3 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-18 05:53:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_POST = [
+    '_csrf' => 'WlozYm5mLWkiKGs1WzNrDio2SyoDNUoqN21SGhQsHzExd2kHJFRjLg=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '166'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '51909'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_URI' => '/index.php?r=admin/public/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487393632.378
+    'REQUEST_TIME' => 1487393632
+]
+2017-02-18 06:03:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/loginout' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('loginout', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 06:03:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/loginout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG\";}'
+    'PHPSESSID' => '3omf4sll12ktl0116v4qbeesf6'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG%22%3B%7D; PHPSESSID=3omf4sll12ktl0116v4qbeesf6'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '51968'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Floginout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Floginout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487394234.698
+    'REQUEST_TIME' => 1487394234
+]
+2017-02-18 06:05:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/loginout' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('loginout', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 06:05:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/loginout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG\";}'
+    'PHPSESSID' => '3omf4sll12ktl0116v4qbeesf6'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=f6034f1f01228fa7a885b332032a1896a04e87d383e46f0d5f8ad08a09469caca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xrXW5UFgplxHmSgCm7axzJ2Xk-ZeJ2NG%22%3B%7D; PHPSESSID=3omf4sll12ktl0116v4qbeesf6'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '51988'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Floginout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Floginout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487394348.092
+    'REQUEST_TIME' => 1487394348
+]
+2017-02-18 06:07:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/loginout' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('loginout', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 06:07:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/loginout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne\";}'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne%22%3B%7D; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '52020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Floginout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Floginout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487394462.52
+    'REQUEST_TIME' => 1487394462
+]
+2017-02-18 08:50:04 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Unable to resolve the relative route: public/login. No active controller is available.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseUrl.php:137
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseUrl.php(99): yii\helpers\BaseUrl::normalizeRoute('public/login')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Controller.php(202): yii\helpers\BaseUrl::to(Array)
+#3 D:\xampp\htdocs\myjd2\basic\modules\controllers\CommonController.php(15): yii\web\Controller->redirect(Array)
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Object.php(107): app\modules\controllers\CommonController->init()
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(86): yii\base\Object->__construct(Array)
+#6 [internal function]: yii\base\Controller->__construct('default', Object(app\modules\admin), Array)
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\modules\\con...', Array, Array)
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\modules\\con...', Array)
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(638): yii\BaseYii::createObject('app\\modules\\con...', Array)
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('default')
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('')
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('admin')
+#14 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin', Array)
+#15 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2017-02-18 08:50:04 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne\";}'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne%22%3B%7D; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '55108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487404203.34
+    'REQUEST_TIME' => 1487404203
+]
+2017-02-18 08:50:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "public/login".' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('public/login', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 08:50:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'public/login'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => 'c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne\";}'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=c4317c1b2c1846c307fce676dc53e4794d40c02a36360a88e406a6b2e754517aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DYtf_g3b7gaxs1_CZxgX_N925b4Yy6Ne%22%3B%7D; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '55116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=public%2Flogin'
+    'REQUEST_URI' => '/index.php?r=public%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487404247.802
+    'REQUEST_TIME' => 1487404247
+]
+2017-02-18 09:49:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/logout' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('logout', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 09:49:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/logout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+    '_csrf' => 'dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3; _csrf=dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57824'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487407774.648
+    'REQUEST_TIME' => 1487407774
+]
+2017-02-18 09:50:06 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Yii' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-18 09:50:06 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][info][application] $_GET = [
+    'r' => 'admin/default/logout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+    '_csrf' => 'dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3; _csrf=dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57833'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/logout'
+    'REQUEST_URI' => '/index.php?r=admin/default/logout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487407806.72
+    'REQUEST_TIME' => 1487407806
+]
+2017-02-18 09:50:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/public/logout' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('logout', Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-18 09:50:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/public/logout'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+    '_csrf' => 'dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3; _csrf=dd91a599501e846577a2879bbf4f09c8c0226bf3e098377235b3721fd7ddc73ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RjOJoxbskuuL2y0nRuCxwxlvaoIvGCmg%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57848'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogout'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487407837.81
+    'REQUEST_TIME' => 1487407837
+]
