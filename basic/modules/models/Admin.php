@@ -16,6 +16,17 @@
 			return "{{%admin}}";
 		}
 
+		//添加页面显示的字段名称
+		public function attributeLabels()
+		{
+		    return [
+		        'adminuser' => '管理员账号',
+		        'adminemail' => '管理员邮箱',
+		        'adminpass' => '管理员密码',
+		        'repass' => '确认密码',
+		    ];
+		}
+
 		// 验证规则
 		public function rules()
 		{
@@ -140,13 +151,43 @@
 		{
 
 			$this->scenario = "changepass";
+
 			if($this->load($data) && $this->validate()){
 
 				//修改密码
-            			return (bool)$this->updateAll(['adminpass' => md5($this->adminpass)], 'adminuser = :user', [':user' => $this->adminuser]);
+            			return (bool) $this->updateAll(['adminpass' => md5($this->adminpass)], 'adminuser = :user', [':user' => $this->adminuser]);
 			}
 
 			return false;
+		}		
+
+		//添加管理员
+		public function reg($data)
+		{
+
+			$this->scenario = 'adminadd';
+
+			if($this->load($data) && $this->validate()){
+				$this->adminpass = md5($this->adminpass);
+				// save方法会先执行validate验证过程
+				// save(false)：false值表示save不需要先执行validate验证
+				if($this->save(false)){//yii的添加新数据
+					return true;
+				}
+				return false;
+			}
+			return false;
+		}		
+
+		//当前登录管理员邮箱的修改
+		public function changeEmail($data)
+		{
+		    $this->scenario = "changeemail";
+
+		    if ($this->load($data) && $this->validate()) {
+		        return (bool)$this->updateAll(['adminemail' => $this->adminemail], 'adminuser = :user', [':user' => $this->adminuser]);
+		    }
+		    return false;
 		}		
 	}
  ?>

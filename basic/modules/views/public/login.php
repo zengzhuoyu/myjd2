@@ -32,7 +32,7 @@
             <?php 
                 $form = ActiveForm::begin([
                         'fieldConfig' => [
-                            'template' => '{error}{input}',//{input}就是指定错误信息与和每一个input框的相对位置
+                            'template' => '{error}{input}',//{input}就是每一个input框的位置
                         ],
                 ]);
              ?>
