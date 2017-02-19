@@ -694,3 +694,155 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487407837.81
     'REQUEST_TIME' => 1487407837
 ]
+2017-02-19 04:55:05 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\myjd2\basic\modules\views\manage\mailchangepass.php' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\modules\controllers\ManageController))
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('mailchangepass', Array, Object(app\modules\controllers\ManageController))
+#2 D:\xampp\htdocs\myjd2\basic\modules\controllers\ManageController.php(47): yii\base\Controller->render('mailchangepass', Array)
+#3 [internal function]: app\modules\controllers\ManageController->actionMailchangepass()
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('mailchangepass', Array)
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/manage/ma...', Array)
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-19 04:55:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass'
+    'timestamp' => '1487476496'
+    'adminuser' => 'admin'
+    'token' => '835c4edafdc26af2c242e512d040033c'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+    '_csrf' => '5af8dbabcdacdc126257feec276a71625ef188f49f0aa5173e82872f8df44d09a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vUnm9dpWkVZeKzvYny_gkDMM79VRAALP\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mail.163.com/js6/read/readhtml.jsp?mid=41:1tbiKRGDcFXlhZbkJQAAsp&font=15&color=064977'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3; _csrf=5af8dbabcdacdc126257feec276a71625ef188f49f0aa5173e82872f8df44d09a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vUnm9dpWkVZeKzvYny_gkDMM79VRAALP%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57981'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass&timestamp=1487476496&adminuser=admin&token=835c4edafdc26af2c242e512d040033c'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1487476496&adminuser=admin&token=835c4edafdc26af2c242e512d040033c'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487476505.189
+    'REQUEST_TIME' => 1487476505
+]
+2017-02-19 05:16:52 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::rememberMe' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('rememberMe')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2081): yii\db\BaseActiveRecord->__get('rememberMe')
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1461): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\models\Admin), 'rememberMe')
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1443): yii\helpers\BaseHtml::activeBooleanInput('checkbox', Object(app\modules\models\Admin), 'rememberMe', Array)
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(580): yii\helpers\BaseHtml::activeCheckbox(Object(app\modules\models\Admin), 'rememberMe', Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2-bootstrap\ActiveField.php(212): yii\widgets\ActiveField->checkbox(Array, false)
+#6 D:\xampp\htdocs\myjd2\basic\modules\views\public\login.php(52): yii\bootstrap\ActiveField->checkbox(Array)
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\modules\controllers\PublicController))
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(app\modules\controllers\PublicController))
+#11 D:\xampp\htdocs\myjd2\basic\modules\controllers\PublicController.php(33): yii\base\Controller->render('login', Array)
+#12 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#16 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/public/lo...', Array)
+#17 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2017-02-19 05:16:52 [127.0.0.1][-][kk7mrnva4uqd64j507a2iqkdd3][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'kk7mrnva4uqd64j507a2iqkdd3'
+    '_csrf' => '5af8dbabcdacdc126257feec276a71625ef188f49f0aa5173e82872f8df44d09a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vUnm9dpWkVZeKzvYny_gkDMM79VRAALP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=kk7mrnva4uqd64j507a2iqkdd3; _csrf=5af8dbabcdacdc126257feec276a71625ef188f49f0aa5173e82872f8df44d09a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vUnm9dpWkVZeKzvYny_gkDMM79VRAALP%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '58175'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Flogin'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487477812.07
+    'REQUEST_TIME' => 1487477812
+]

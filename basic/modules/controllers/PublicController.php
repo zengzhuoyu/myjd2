@@ -33,4 +33,20 @@ class PublicController extends Controller
         return $this->render('login',['model' => $model]);
     }
 
+    //找回密码
+    public function actionSeekpassword()
+    {
+
+        $this->layout = false;
+        $model = new Admin;
+
+        if(Yii::$app->request->isPost){
+            $post = Yii::$app->request->post();
+             if($model->seekPass($post)){
+                Yii::$app->session->setFlash('info','电子邮件已发送成功,请注意查收');//写入session的info变量
+             }
+        }
+        return $this->render('seekpassword',['model' => $model]); 
+    }    
+
 }

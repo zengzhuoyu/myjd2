@@ -27,7 +27,15 @@ $config = [
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
-            'useFileTransport' => true,
+            'useFileTransport' => false,//false：发送邮件 true：生成邮件在runtime文件夹下，不发送邮件
+            'transport' => [
+              'class' => 'Swift_SmtpTransport',
+              'host' => 'smtp.163.com',
+              'username' => 'zengzhuoyu24@163.com',
+              'password' => 'ainicluo724',
+              'port' => '465',
+              'encryption' => 'ssl',
+            ],            
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
