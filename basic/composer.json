@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "files": [
+          "common/components/GlobalFunctions.php"
+        ]
+    },    
     "name": "yiisoft/yii2-app-basic",
     "description": "Yii 2 Basic Project Template",
     "keywords": ["yii2", "framework", "basic", "project template"],

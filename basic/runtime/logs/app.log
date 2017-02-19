@@ -846,3 +846,1359 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487477812.07
     'REQUEST_TIME' => 1487477812
 ]
+2017-02-19 15:08:15 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:15 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57670'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513295.273
+    'REQUEST_TIME' => 1487513295
+]
+2017-02-19 15:08:18 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:18 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57671'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513297.991
+    'REQUEST_TIME' => 1487513297
+]
+2017-02-19 15:08:28 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:27 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57676'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513307.922
+    'REQUEST_TIME' => 1487513307
+]
+2017-02-19 15:08:31 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:31 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513311.081
+    'REQUEST_TIME' => 1487513311
+]
+2017-02-19 15:08:33 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:33 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513313.376
+    'REQUEST_TIME' => 1487513313
+]
+2017-02-19 15:08:51 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\p()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:08:51 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57714'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513331.345
+    'REQUEST_TIME' => 1487513331
+]
+2017-02-19 15:15:31 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:15:31 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57875'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513731.617
+    'REQUEST_TIME' => 1487513731
+]
+2017-02-19 15:16:09 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:16:09 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57883'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513769.8
+    'REQUEST_TIME' => 1487513769
+]
+2017-02-19 15:16:11 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:16:10 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57884'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513770.7
+    'REQUEST_TIME' => 1487513770
+]
+2017-02-19 15:16:12 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:16:12 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57885'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/index.php?r=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513772.315
+    'REQUEST_TIME' => 1487513772
+]
+2017-02-19 15:16:14 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:16:14 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57886'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513774.269
+    'REQUEST_TIME' => 1487513774
+]
+2017-02-19 15:16:16 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:16:16 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57887'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513776.846
+    'REQUEST_TIME' => 1487513776
+]
+2017-02-19 15:17:19 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:17:19 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57914'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513839.566
+    'REQUEST_TIME' => 1487513839
+]
+2017-02-19 15:18:22 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:18:21 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57942'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513901.982
+    'REQUEST_TIME' => 1487513901
+]
+2017-02-19 15:19:28 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:19:28 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57965'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487513968.566
+    'REQUEST_TIME' => 1487513968
+]
+2017-02-19 15:20:10 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:20:10 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '57988'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487514010.368
+    'REQUEST_TIME' => 1487514010
+]
+2017-02-19 15:20:51 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\Tools' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:20:51 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '58066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487514051.408
+    'REQUEST_TIME' => 1487514051
+]
+2017-02-19 15:30:27 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\components\Helper' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 15:30:27 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '58478'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487514627.793
+    'REQUEST_TIME' => 1487514627
+]
+2017-02-19 15:34:06 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][ReflectionException] exception 'ReflectionException' with message 'Class app\components\MyComponent does not exist' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\components\\...')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\components\\...')
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\components\\...', Array, Array)
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\components\\...', Array, Array)
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\di\ServiceLocator->get('mycomponent')
+#6 D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php(14): yii\di\ServiceLocator->__get('mycomponent')
+#7 [internal function]: app\modules\controllers\DefaultController->actionIndex()
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/default/i...', Array)
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-02-19 15:34:06 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '58608'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487514846.372
+    'REQUEST_TIME' => 1487514846
+]
+2017-02-19 16:13:44 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\modules\controllers\d()' in D:\xampp\htdocs\myjd2\basic\modules\controllers\DefaultController.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-19 16:13:44 [127.0.0.1][-][d1iaaedbptp5itvhj6u8i8ck77][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    'PHPSESSID' => 'd1iaaedbptp5itvhj6u8i8ck77'
+    '_csrf' => 'ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zud2USjqCXqJ6TLhWMojLdlqupuvk4wT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; PHPSESSID=d1iaaedbptp5itvhj6u8i8ck77; _csrf=ffe9c24ea7a3d0685781b7d542307d0686e06eaef2953e1099b24eabb8387ee8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zud2USjqCXqJ6TLhWMojLdlqupuvk4wT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '60453'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fdefault%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fdefault%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487517224.857
+    'REQUEST_TIME' => 1487517224
+]
