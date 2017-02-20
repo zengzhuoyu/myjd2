@@ -2,9 +2,11 @@
 
 namespace app\modules\controllers;
 
-use yii\web\Controller;
+// use yii\web\Controller;//可省略
 
 use Yii;
+
+use app\modules\controllers\CommonController;
 
 class DefaultController extends CommonController
 {

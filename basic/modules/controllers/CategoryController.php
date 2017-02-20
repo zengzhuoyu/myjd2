@@ -2,11 +2,13 @@
 
 namespace app\modules\controllers;
 
-use yii\web\Controller;
+// use yii\web\Controller;
 
 use Yii;
 
 use app\models\Category;
+
+use app\modules\controllers\CommonController;
 
 class CategoryController extends Controller
 {

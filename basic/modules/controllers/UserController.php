@@ -1,7 +1,7 @@
 <?php
 
 namespace app\modules\controllers;
-use yii\web\Controller;
+// use yii\web\Controller;
 
 use yii\data\Pagination;
 use app\models\User;

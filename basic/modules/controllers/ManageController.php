@@ -2,7 +2,7 @@
 
 namespace app\modules\controllers;
 
-use yii\web\Controller;
+// use yii\web\Controller;
 
 use Yii;
 
@@ -10,7 +10,9 @@ use app\modules\models\Admin;
 
 use yii\data\Pagination;
 
-class ManageController extends Controller
+use app\modules\controllers\CommonController;
+
+class ManageController extends CommonController
 {
 
     public function actionMailchangepass()
