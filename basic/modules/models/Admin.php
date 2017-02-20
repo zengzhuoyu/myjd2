@@ -42,6 +42,7 @@
 				['adminemail','validateEmail','on'=>'seekpass'],		
 				['repass','required','message' => '确认密码不能不为空','on' => ['changepass','adminadd']],//确认密码与新密码一致，这里就可以不用判断了
 				['repass','compare','compareAttribute' => 'adminpass','message'=>'两次输入密码不一致','on' => ['changepass','adminadd']],
+				['createtime', 'safe']
 			];
 		}		
 
@@ -164,8 +165,9 @@
 		//添加管理员
 		public function reg($data)
 		{
-
 			$this->scenario = 'adminadd';
+
+			$data['Admin']['createtime'] = time();
 
 			if($this->load($data) && $this->validate()){
 				$this->adminpass = md5($this->adminpass);
@@ -185,7 +187,7 @@
 		    $this->scenario = "changeemail";
 
 		    if ($this->load($data) && $this->validate()) {
-		        return (bool)$this->updateAll(['adminemail' => $this->adminemail], 'adminuser = :user', [':user' => $this->adminuser]);
+		        return (bool) $this->updateAll(['adminemail' => $this->adminemail], 'adminuser = :user', [':user' => $this->adminuser]);
 		    }
 		    return false;
 		}		
