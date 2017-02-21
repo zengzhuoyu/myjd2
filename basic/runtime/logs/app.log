@@ -2717,3 +2717,1106 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487594620.48
     'REQUEST_TIME' => 1487594620
 ]
+2017-02-21 03:41:45 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: product' in D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php:20
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(20): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: app\modules\controllers\ProductController->actionList()
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('list', Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/product/l...', Array)
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-21 03:41:45 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'admin/product/list'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '52306'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487644905.517
+    'REQUEST_TIME' => 1487644905
+]
+2017-02-21 05:08:26 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\myjd2\basic/mail\createuser.php' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(yii\swiftmailer\Mailer))
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\mail\BaseMailer.php(301): yii\base\View->render('createuser', Array, Object(yii\swiftmailer\Mailer))
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\mail\BaseMailer.php(194): yii\mail\BaseMailer->render('createuser', Array, 'layouts/html')
+#3 D:\xampp\htdocs\myjd2\basic\models\User.php(102): yii\mail\BaseMailer->compose('createuser', Array)
+#4 D:\xampp\htdocs\myjd2\basic\controllers\MemberController.php(45): app\models\User->regByMail(Array)
+#5 [internal function]: app\controllers\MemberController->actionReg()
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('reg', Array)
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('member/reg', Array)
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-02-21 05:08:25 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'member/reg'
+]
+
+$_POST = [
+    '_csrf' => 'aW1NWnFXRjUtAjpoLjEHUgAsNRwZGDVzMR4FKxtnEXMvHw4QNzN2Aw=='
+    'User' => [
+        'useremail' => 'zengzhuoyu24@163.com'
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'referrer' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '109'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522;'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '54871'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=member%2Freg'
+    'REQUEST_URI' => '/index.php?r=member%2Freg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487650105.946
+    'REQUEST_TIME' => 1487650105
+]
+2017-02-21 07:38:24 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Cart' not found' in D:\xampp\htdocs\myjd2\basic\controllers\CommonController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-21 07:38:24 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'member/auth'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06%22%3B%7D; ; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '56845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member%2Fauth'
+    'REQUEST_URI' => '/index.php?r=member%2Fauth'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487659104.016
+    'REQUEST_TIME' => 1487659104
+]
+2017-02-21 07:38:31 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Cart' not found' in D:\xampp\htdocs\myjd2\basic\controllers\CommonController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-21 07:38:31 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'member/auth'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06%22%3B%7D; ; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '56846'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member/auth'
+    'REQUEST_URI' => '/index.php?r=member/auth'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487659111.775
+    'REQUEST_TIME' => 1487659111
+]
+2017-02-21 07:39:11 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myjd2_test.myjd2_cart' doesn't exist' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:902
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(902): PDOStatement->execute()
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\xampp\htdocs\myjd2\basic\controllers\CommonController.php(24): yii\db\ActiveQuery->all()
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Object.php(107): app\controllers\CommonController->init()
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(86): yii\base\Object->__construct('[]')
+#7 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs('[<span class="s...')
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(638): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('<span class="st...')
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('<span class="st...')
+#14 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myjd2_test.myjd2_cart' doesn't exist
+The SQL being executed was: SELECT * FROM `myjd2_cart` WHERE userid = '8'' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\xampp\htdocs\myjd2\basic\controllers\CommonController.php(24): yii\db\ActiveQuery->all()
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Object.php(107): app\controllers\CommonController->init()
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(86): yii\base\Object->__construct('[]')
+#7 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs('[<span class="s...')
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(638): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('<span class="st...')
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('<span class="st...')
+#14 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'myjd2_test.myjd2_cart' doesn't exist
+)
+
+2017-02-21 07:39:10 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'member/auth'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=68ed804402dcec94179555ee38664c2ff11cd257a64e83120f5edb40ab4ba4a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dow2_fAgiAxFhOsFXsHqj0WFFrCJFd06%22%3B%7D; ; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '56853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=member/auth'
+    'REQUEST_URI' => '/index.php?r=member/auth'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487659150.589
+    'REQUEST_TIME' => 1487659150
+]
+2017-02-21 13:23:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Controller' not found' in D:\xampp\htdocs\myjd2\basic\modules\controllers\CategoryController.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-21 13:23:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/category/list'
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv%22%3B%7D; ; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '53016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fcategory%2Flist'
+    'REQUEST_URI' => '/index.php?r=admin%2Fcategory%2Flist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487679789.13
+    'REQUEST_TIME' => 1487679789
+]
+2017-02-21 13:41:53 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'Undefined offset: 1' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(282): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Command->prepare('<span class="ke...')
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(227): yii\db\Command->execute()
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#7 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(122): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\controllers\ProductController->actionMod()
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'Undefined offset: 1
+Failed to prepare SQL: UPDATE `myjd2_product` SET `pics`=:qp0 WHERE `productid`=:qp1' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Command->prepare('<span class="ke...')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(227): yii\db\Command->execute()
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(122): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\modules\controllers\ProductController->actionMod()
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2017-02-21 13:41:53 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'admin/product/mod'
+    'productid' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'dnY1TndkUjgEHFEdNgMfQTswXSgQIGZzLxJkCDY1YWIMQgEoGCYATg=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => 'MA-1 飞行服'
+        'descr' => 'MA-1 飞行服MA-1 飞行服MA-1 飞行服<br><img alt=\"\"><img alt=\"\" src=\"http://n.sinaimg.cn/crawl/20150702/5G8w-fxesfuc3480710.png\"><br>'
+        'price' => '23.00'
+        'ishot' => '0'
+        'issale' => '1'
+        'saleprice' => '12.00'
+        'num' => '9'
+        'ison' => '1'
+        'istui' => '0'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+    '_wysihtml5_mode' => '1'
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 4
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+    'referrer' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '2393'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryoANOgCTEutPsOnFR'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522;'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '53394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fmod&productid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487680913.65
+    'REQUEST_TIME' => 1487680913
+]
+2017-02-21 13:42:40 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'Undefined offset: 1' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(282): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Command->prepare('<span class="ke...')
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(227): yii\db\Command->execute()
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#7 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(122): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\controllers\ProductController->actionMod()
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'Undefined offset: 1
+Failed to prepare SQL: UPDATE `myjd2_product` SET `pics`=:qp0 WHERE `productid`=:qp1' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Command->prepare('<span class="ke...')
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(227): yii\db\Command->execute()
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(122): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\modules\controllers\ProductController->actionMod()
+#7 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2017-02-21 13:42:40 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'admin/product/mod'
+    'productid' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'c1FSS3Bpb0gBOzYYMQ4iMT4XOi0XLVsDKjUDDTE4XBIJZWYtHys9Pg=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => 'MA-1 飞行服'
+        'descr' => 'MA-1 飞行服MA-1 飞行服MA-1 飞行服<br><img alt=\"\"><img alt=\"\" src=\"http://n.sinaimg.cn/crawl/20150702/5G8w-fxesfuc3480710.png\"><br>'
+        'price' => '23.00'
+        'ishot' => '0'
+        'issale' => '1'
+        'saleprice' => '12.00'
+        'num' => '9'
+        'ison' => '1'
+        'istui' => '0'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+    '_wysihtml5_mode' => '1'
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 4
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+    'referrer' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '2393'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryL8ouG64xYTu12SSJ'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522;'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '53409'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fmod&productid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487680960.424
+    'REQUEST_TIME' => 1487680960
+]
+2017-02-21 13:45:04 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:330
+Stack trace:
+#0 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(330): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 330, Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(490): yii\db\Command->bindValues(Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(225): yii\db\Command->update('{{%product}}', Array, Array, Array)
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll(Array, Array)
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal(NULL)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update(true, NULL)
+#6 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(123): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\modules\controllers\ProductController->actionMod()
+#8 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('mod', Array)
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/product/m...', Array)
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-02-21 13:45:04 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'admin/product/mod'
+    'productid' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'VExWZktuNW0mJjI1Cgl4FBkKPgAsKgEmDSgHIAo/BjcueGIAJCxnGw=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => 'MA-1 飞行服'
+        'descr' => 'MA-1 飞行服MA-1 飞行服MA-1 飞行服<br><img alt=\"\"><img alt=\"\" src=\"http://n.sinaimg.cn/crawl/20150702/5G8w-fxesfuc3480710.png\"><br>'
+        'price' => '23.00'
+        'ishot' => '0'
+        'issale' => '1'
+        'saleprice' => '12.00'
+        'num' => '9'
+        'ison' => '1'
+        'istui' => '0'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+    '_wysihtml5_mode' => '1'
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 4
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+    'referrer' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '2393'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary7TRbQhWCcYXcADDW'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522;'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '53484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fmod&productid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487681104.034
+    'REQUEST_TIME' => 1487681104
+]
+2017-02-21 13:46:13 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Array to string conversion' in D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php:185
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 185, Array)
+#1 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(185): strtr('UPDATE `myjd2_p...', Array)
+#2 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\Command.php(832): yii\db\Command->getRawSql()
+#3 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(227): yii\db\Command->execute()
+#4 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(766): yii\db\ActiveRecord::updateAll(Array, Array)
+#5 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\BaseActiveRecord->updateInternal(NULL)
+#6 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update(true, NULL)
+#7 D:\xampp\htdocs\myjd2\basic\modules\controllers\ProductController.php(123): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\controllers\ProductController->actionMod()
+#9 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('mod', Array)
+#12 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/product/m...', Array)
+#13 D:\xampp\htdocs\myjd2\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\myjd2\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-02-21 13:46:13 [127.0.0.1][-][ocb2mtnidf0h6kqtirvj1dq522][info][application] $_GET = [
+    'r' => 'admin/product/mod'
+    'productid' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'VXRkUGo3Z2YnHgADK1AqHxgyDDYNc1MtDBA1FitmVDwvQFA2BXU1EA=='
+    'Product' => [
+        'cateid' => '4'
+        'title' => 'MA-1 飞行服'
+        'descr' => 'MA-1 飞行服MA-1 飞行服MA-1 飞行服<br><img alt=\"\"><img alt=\"\" src=\"http://n.sinaimg.cn/crawl/20150702/5G8w-fxesfuc3480710.png\"><br>'
+        'price' => '23.00'
+        'ishot' => '0'
+        'issale' => '1'
+        'saleprice' => '12.00'
+        'num' => '9'
+        'ison' => '1'
+        'istui' => '0'
+        'cover' => ''
+        'pics' => [
+            0 => ''
+        ]
+    ]
+    '_wysihtml5_mode' => '1'
+]
+
+$_FILES = [
+    'Product' => [
+        'name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'cover' => ''
+            'pics' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'cover' => 4
+            'pics' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'cover' => 0
+            'pics' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '__unam' => '62276c-15a46862158-40138165-16'
+    '_csrf' => '6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv\";}'
+    'PHPSESSID' => 'ocb2mtnidf0h6kqtirvj1dq522'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+    'loginname' => 'imooc_58abde06065b8'
+    'isLogin' => 1
+    'referrer' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'myjd2.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '2393'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://myjd2.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryQTB0wu87ws7xXkrD'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://myjd2.local/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '__unam=62276c-15a46862158-40138165-16; _csrf=6267e3251957aec8e6290780137ac59ada4a183c9ffacf6fdd2d2aa2d3c6924ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rjdSAgMyMFhfgD4KYdQFAQ3Zz44foBRv%22%3B%7D; PHPSESSID=ocb2mtnidf0h6kqtirvj1dq522;'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\bin;D:\\nodejs;D:\\xampp\\php;D:\\xampp\\mysql\\bin;D:\\nodejs\\;D:\\jdk\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at myjd2.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'myjd2.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/myjd2/basic/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/myjd2/basic/web/index.php'
+    'REMOTE_PORT' => '53512'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fproduct%2Fmod&productid=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fproduct%2Fmod&productid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487681173.694
+    'REQUEST_TIME' => 1487681173
+]

@@ -361,9 +361,9 @@
             "font-styles": false
         });
         $("#addpic").click(function(){
-            var pic = $("#product-pics").clone();
-            pic.attr("style", "margin-left:120px");
-            $("#product-pics").parent().append(pic);
+            var pic = $("#product-pics").clone();//clone()
+            pic.attr("style", "margin-left:120px");//对象添加样式
+            $("#product-pics").parent().append(pic);//父类尾部插入
         });
 
     </script>

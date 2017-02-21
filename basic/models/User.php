@@ -100,7 +100,7 @@ class User extends ActiveRecord
         $this->scenario = 'regbymail';
         if ($this->load($data) && $this->validate()) {
             $mailer = Yii::$app->mailer->compose('createuser', ['userpass' => $data['User']['userpass'], 'username' => $data['User']['username']]);
-            $mailer->setFrom('imooc_shop@163.com');
+            $mailer->setFrom('zengzhuoyu24@163.com');
             $mailer->setTo($data['User']['useremail']);
             $mailer->setSubject('慕课商城-新建用户');
             if ($mailer->send() && $this->reg($data, 'regbymail')) {

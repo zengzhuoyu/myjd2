@@ -7,353 +7,33 @@
     <div class="head"><i class="fa fa-list"></i> 所有分类 </div>        
     <nav class="yamm megamenu-horizontal" role="navigation">
         <ul class="nav">
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">电子产品</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                        
-                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">服装类</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                            
-                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">玩具类</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">智能家居</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->    
-                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">厨房厨具</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">家居装潢</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                        
-                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">生鲜水果</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">床上用品</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">书籍</a>
-                <ul class="dropdown-menu mega-menu">
-                    <li class="yamm-content">
-                        <!-- ================================== MEGAMENU VERTICAL ================================== -->
-<div class="row">
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Computer Cases &amp; Accessories</a></li>
-            <li><a href="#">CPUs, Processors</a></li>
-            <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-            <li><a href="#">Graphics, Video Cards</a></li>
-            <li><a href="#">Interface, Add-On Cards</a></li>
-            <li><a href="#">Laptop Replacement Parts</a></li>
-            <li><a href="#">Memory (RAM)</a></li>
-            <li><a href="#">Motherboards</a></li>
-            <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-            <li><a href="#">Motherboard Components &amp; Accs</a></li>
-        </ul>
-    </div>
-
-    <div class="col-xs-12 col-lg-4">
-        <ul>
-            <li><a href="#">Power Supplies Power</a></li>
-            <li><a href="#">Power Supply Testers Sound</a></li>
-            <li><a href="#">Sound Cards (Internal)</a></li>
-            <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-            <li><a href="#">Other</a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown-banner-holder">
-        <a href="#"><img alt="" src="/assets/home/images/banners/banner-side.png" /></a>
-    </div>
-</div>
-<!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                </ul>
-            </li><!-- /.menu-item -->
-            <!--<li><a href="http://themeforest.net/item/media-center-electronic-ecommerce-html-template/8178892?ref=shaikrilwan">Buy this Theme</a></li>-->
+            <?php
+                foreach($this->params['menu'] as $top) :
+            ?>
+                        <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $top['title'] ?></a>
+                            <ul class="dropdown-menu mega-menu">
+                                <li class="yamm-content">
+                                    <!-- ================================== MEGAMENU VERTICAL ================================== -->
+            <div class="row">
+                <div class="col-xs-12 col-lg-4">
+                    <ul>
+            <?php foreach($top['children'] as $child): ?>
+                        <li><a href="<?php echo yii\helpers\Url::to(['product/index', 'cateid' => $child['cateid']]) ?>"><?php echo $child['title'] ?></a></li>
+            <?php endforeach; ?>
+                    </ul>
+                </div>
+                <div class="dropdown-banner-holder">
+                    <a href="#"><img alt="" src="/assets/images/banners/banner-side.png" /></a>
+                </div>
+            </div>
+            <!-- ================================== MEGAMENU VERTICAL ================================== -->                        
+                                </li>
+                            </ul>
+                        </li><!-- /.menu-item -->
+            <?php
+                endforeach;
+            ?>
         </ul><!-- /.nav -->
     </nav><!-- /.megamenu-horizontal -->
 </div><!-- /.side-menu -->
@@ -454,113 +134,37 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="featured">
                     <div class="product-grid-holder">
-                        <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount green">-50% sale</div>
-                                    <div class="title">
-                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
+                        <?php foreach ($data['tui'] as $pro): ?>
+                            <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
+                                <div class="product-item">
+                                    <?php if ($pro->ishot): ?>
+                                    <div class="ribbon red"><span>HOT</span></div> 
+                                    <?php endif; ?>
+                                    <?php if ($pro->issale): ?>
+                                    <div class="ribbon green"><span>sale</span></div> 
+                                    <?php endif; ?>
 
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
+                                    <div class="image">
+                                    <img alt="<?php echo $pro->title ?>" src="<?php echo 'http://'.$pro->cover ?>-covermiddle" data-echo="<?php echo $pro->cover ?>-covermiddle" />
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon blue"><span>new!</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">White lumia 9001</a>
+                                    <div class="body">
+                                        <div class="title">
+                                        <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>"><?php echo $pro->title ?></a>
+                                        </div>
                                     </div>
-                                    <div class="brand">nokia</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
+                                    <div class="prices">
+                                    <div class="price-prev">￥<?php echo $pro->price ?></div>
+                                    <div class="price-current pull-right">￥<?php echo $pro->saleprice ?></div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">POV Action Cam</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    <div class="hover-area">
+                                        <div class="add-cart-button">
+                                        <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $pro->productid]) ?>" class="le-button">加入购物车</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="ribbon green"><span>bestseller</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">Netbook Acer TravelMate 
-                                            B113-E-10072</a>
-                                    </div>
-                                    <div class="brand">acer</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                     <div class="loadmore-holder text-center">
                         <a class="btn-loadmore" href="#">
@@ -569,128 +173,40 @@
                     </div> 
 
                 </div>
+
                 <div class="tab-pane" id="new-arrivals">
                     <div class="product-grid-holder">
-                        
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
+                    <?php foreach ($data['new'] as $pro): ?>
+                        <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
                             <div class="product-item">
-                                <div class="ribbon blue"><span>new!</span></div> 
+                                <?php if ($pro->ishot): ?>
+                                <div class="ribbon red"><span>HOT</span></div> 
+                                <?php endif; ?>
+                                <?php if ($pro->issale): ?>
+                                <div class="ribbon green"><span>sale</span></div> 
+                                <?php endif; ?>
+
                                 <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
+                                <img alt="<?php echo $pro->title ?>" src="<?php echo 'http://'.$pro->cover ?>-covermiddle" data-echo="<?php echo $pro->cover ?>-covermiddle" />
                                 </div>
                                 <div class="body">
-                                    <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="single-product.html">White lumia 9001</a>
+                                    <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>"><?php echo $pro->title ?></a>
                                     </div>
-                                    <div class="brand">nokia</div>
                                 </div>
                                 <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount green">-50% sale</div>
-                                    <div class="title">
-                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
+                                <div class="price-prev">￥<?php echo $pro->price ?></div>
+                                <div class="price-current pull-right">￥<?php echo $pro->saleprice ?></div>
                                 </div>
 
                                 <div class="hover-area">
                                     <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $pro->productid]) ?>" class="le-button">加入购物车</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="ribbon green"><span>bestseller</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">Netbook Acer TravelMate 
-                                            B113-E-10072</a>
-                                    </div>
-                                    <div class="brand">acer</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">POV Action Cam</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                    <?php endforeach; ?>
                     </div>
                     <div class="loadmore-holder text-center">
                         <a class="btn-loadmore" href="#">
@@ -702,123 +218,39 @@
 
                 <div class="tab-pane" id="top-sales">
                     <div class="product-grid-holder">
-
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
+                    <?php foreach ($data['hot'] as $pro): ?>
+                        <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
                             <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="ribbon green"><span>bestseller</span></div> 
+                                <?php if ($pro->ishot): ?>
+                                <div class="ribbon red"><span>HOT</span></div> 
+                                <?php endif; ?>
+                                <?php if ($pro->issale): ?>
+                                <div class="ribbon green"><span>sale</span></div> 
+                                <?php endif; ?>
+
                                 <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-04.jpg" />
+                                <img alt="<?php echo $pro->title ?>" src="<?php echo 'http://'.$pro->cover ?>-covermiddle" data-echo="<?php echo $pro->cover ?>-covermiddle" />
                                 </div>
                                 <div class="body">
-                                    <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="single-product.html">Netbook Acer TravelMate 
-                                            B113-E-10072</a>
+                                    <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>"><?php echo $pro->title ?></a>
                                     </div>
-                                    <div class="brand">acer</div>
                                 </div>
                                 <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
+                                <div class="price-prev">￥<?php echo $pro->price ?></div>
+                                <div class="price-current pull-right">￥<?php echo $pro->saleprice ?></div>
                                 </div>
+
                                 <div class="hover-area">
                                     <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $pro->productid]) ?>" class="le-button">加入购物车</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    <?php endforeach; ?>
 
                         
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-03.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">POV Action Cam</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon blue"><span>new!</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-02.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount clear"></div>
-                                    <div class="title">
-                                        <a href="single-product.html">White lumia 9001</a>
-                                    </div>
-                                    <div class="brand">nokia</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                    <div class="wish-compare">
-                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                                        <a class="btn-add-to-compare" href="#">compare</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-4 col-md-3 no-margin product-item-holder hover">
-                            <div class="product-item">
-                                <div class="ribbon red"><span>sale</span></div> 
-                                <div class="image">
-                                    <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-01.jpg" />
-                                </div>
-                                <div class="body">
-                                    <div class="label-discount green">-50% sale</div>
-                                    <div class="title">
-                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
-                                    </div>
-                                    <div class="brand">sony</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">￥1399.00</div>
-                                    <div class="price-current pull-right">￥1199.00</div>
-                                </div>
-
-                                <div class="hover-area">
-                                    <div class="add-cart-button">
-                                        <a href="single-product.html" class="le-button">加入购物车</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                     <div class="loadmore-holder text-center">
                         <a class="btn-loadmore" href="#">
@@ -826,6 +258,7 @@
                             查看更多</a>
                     </div> 
                 </div>
+
             </div>
         </div>
     </div>
@@ -833,221 +266,101 @@
 <!-- ========================================= BEST SELLERS ========================================= -->
 <section id="bestsellers" class="color-bg wow fadeInUp">
     <div class="container">
-        <h1 class="section-title">销量最佳</h1>
+        <h1 class="section-title">最新商品</h1>
 
         <div class="product-grid-holder medium">
             <div class="col-xs-12 col-md-7 no-margin">
-                
+
                 <div class="row no-margin">
+                    <?php for ($i = 0;$i < 3;$i++): ?>
+                    <?php if (empty($data['all'][$i])) continue; ?>
                     <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
                         <div class="product-item">
                             <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-05.jpg" />
+                            <img alt="<?php echo $data['all'][$i]->title ?>" src="<?php echo 'http://'.$data['all'][$i]->cover ?>-covermiddle" data-echo="<?php echo $data['all'][$i]->cover ?>-covermiddle" />
                             </div>
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="single-product.html">beats studio headphones official one</a>
+                                <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $data['all'][$i]->productid]); ?>"><?php echo $data['all'][$i]->title ?></a>
                                 </div>
-                                <div class="brand">beats</div>
                             </div>
                             <div class="prices">
-
-                                <div class="price-current text-right">￥1199.00</div>
+                            <div class="price-current text-right">￥<?php echo $data['all'][$i]->saleprice ?></div>
                             </div>
                             <div class="hover-area">
                                 <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
+                                <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $data['all'][$i]->productid]) ?>" class="le-button">加入购物车</a>
                                 </div>
                             </div>
                         </div>
                     </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-06.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="single-product.html">playstasion 4 with four games and pad</a>
-                                </div>
-                                <div class="brand">acer</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">￥1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-07.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="single-product.html">EOS rebel t5i DSLR Camera with 18-55mm IS STM lens</a>
-                                </div>
-                                <div class="brand">canon</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">￥1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
+                    <?php endfor; ?>
                 </div><!-- /.row -->
-                
+
                 <div class="row no-margin">
-                    
+                    <?php for ($i = 3;$i < 6;$i++): ?>
+                    <?php if (empty($data['all'][$i])) continue; ?>
                     <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
                         <div class="product-item">
                             <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-08.jpg" />
+                            <img alt="<?php echo $data['all'][$i]->title ?>" src="<?php echo 'http://'.$data['all'][$i]->cover ?>-covermiddle" data-echo="<?php echo $data['all'][$i]->cover ?>-covermiddle" />
                             </div>
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="single-product.html">fitbit zip wireless activity tracker - lime</a>
+                                <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $data['all'][$i]->productid]); ?>"><?php echo $data['all'][$i]->title ?></a>
                                 </div>
-                                <div class="brand">fitbit zip</div>
                             </div>
                             <div class="prices">
-                                <div class="price-current text-right">￥1199.00</div>
+                            <div class="price-current text-right">￥<?php echo $data['all'][$i]->saleprice ?></div>
                             </div>
                             <div class="hover-area">
                                 <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
+                                <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $data['all'][$i]->productid]) ?>" class="le-button">加入购物车</a>
                                 </div>
                             </div>
                         </div>
                     </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-09.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="single-product.html">PowerShot elph 115 16MP digital camera</a>
-                                </div>
-                                <div class="brand">canon</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">￥1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-10.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="single-product.html">netbook acer travelMate b113-E-10072</a>
-                                </div>
-                                <div class="brand">acer</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">￥1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="single-product.html" class="le-button">加入购物车</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
+                    <?php endfor; ?>
                 </div><!-- /.row -->
             </div><!-- /.col -->
             <div class="col-xs-12 col-md-5 no-margin">
                 <div class="product-item-holder size-big single-product-gallery small-gallery">
-                    
+                    <?php $last = $data['all'][count($data['all'])-1];?>
                     <div id="best-seller-single-product-slider" class="single-product-slider owl-carousel">
                         <div class="single-product-gallery-item" id="slide1">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-gallery-01.jpg" />
+                        <a data-rel="prettyphoto" href="<?php echo $last->cover ?>">
+                        <img alt="<?php echo $last->title ?>" src="<?php echo 'http://'.$last->cover ?>-coverbig" data-echo="<?php echo $last->cover ?>-coverbig" />
                             </a>
                         </div><!-- /.single-product-gallery-item -->
-
-                        <div class="single-product-gallery-item" id="slide2">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-gallery-01.jpg" />
+                        <?php foreach((array)json_decode($last->pics, true) as $key => $pic): ?>
+                        <div class="single-product-gallery-item" id="slide<?php echo $key+2; ?>">
+                            <a data-rel="prettyphoto" href="<?php echo $last->pics ?>">
+                                <img alt="" src="<?php echo 'http://'.$pic ?>-picbig" data-echo="<?php echo $pic ?>-picbig" />
                             </a>
                         </div><!-- /.single-product-gallery-item -->
-
-                        <div class="single-product-gallery-item" id="slide3">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-gallery-01.jpg" />
-                            </a>
-                        </div><!-- /.single-product-gallery-item -->
+                        <?php endforeach; ?>
                     </div><!-- /.single-product-slider -->
 
                     <div class="gallery-thumbs clearfix">
                         <ul>
-                            <li><a class="horizontal-thumb active" data-target="#best-seller-single-product-slider" data-slide="0" href="#slide1"><img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/gallery-thumb-01.jpg" /></a></li>
-                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="1" href="#slide2"><img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/gallery-thumb-01.jpg" /></a></li>
-                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="2" href="#slide3"><img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/gallery-thumb-01.jpg" /></a></li>
+                        <li><a class="horizontal-thumb active" data-target="#best-seller-single-product-slider" data-slide="0" href="#slide1"><img alt="<?php echo $last->title ?>" src="<?php echo 'http://'.$last->cover ?>-picsmall" data-echo="<?php echo $last->cover ?>-picsmall" /></a></li>
+                        <?php foreach ((array)json_decode($last->pics, true) as $key => $pic): ?>
+                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="<?php echo $key+1; ?>" href="#slide<?php echo $key+2; ?>"><img alt="" src="<?php echo 'http://'.$pic ?>-picsmall" data-echo="<?php echo $pic ?>-picsmall" /></a></li>
+                        <?php endforeach; ?>
                         </ul>
                     </div><!-- /.gallery-thumbs -->
 
                     <div class="body">
                         <div class="label-discount clear"></div>
                         <div class="title">
-                            <a href="single-product.html">CPU intel core i5-4670k 3.4GHz BOX B82-12-122-41</a>
+                        <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $last->productid]) ?>"><?php echo $last->title ?></a>
                         </div>
-                        <div class="brand">sony</div>
                     </div>
                     <div class="prices text-right">
-                        <div class="price-current inline">￥1199.00</div>
-                        <a href="cart.html" class="le-button big inline">加入购物车</a>
+                    <div class="price-current inline">￥<?php echo $last->saleprice ?></div>
+                    <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $last->productid]) ?>" class="le-button big inline">加入购物车</a>
                     </div>
                 </div><!-- /.product-item-holder -->
             </div><!-- /.col -->
@@ -1058,244 +371,59 @@
 <!-- ========================================= BEST SELLERS : END ========================================= -->
 <!-- ========================================= RECENTLY VIEWED ========================================= -->
 <section id="recently-reviewd" class="wow fadeInUp">
-	<div class="container">
-		<div class="carousel-holder hover">
-			
-			<div class="title-nav">
-				<h2 class="h1">最近浏览</h2>
-				<div class="nav-holder">
-					<a href="#prev" data-target="#owl-recently-viewed" class="slider-prev btn-prev fa fa-angle-left"></a>
-					<a href="#next" data-target="#owl-recently-viewed" class="slider-next btn-next fa fa-angle-right"></a>
-				</div>
-			</div><!-- /.title-nav -->
+    <div class="container">
+        <div class="carousel-holder hover">
 
-			<div id="owl-recently-viewed" class="owl-carousel product-grid-holder">
-				<div class="no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-						<div class="ribbon red"><span>sale</span></div> 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-11.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">LC-70UD1U 70" class aquos 4K ultra HD</a>
-							</div>
-							<div class="brand">Sharp</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
+            <div class="title-nav">
+                <h2 class="h1">所有商品</h2>
+                <div class="nav-holder">
+                    <a href="#prev" data-target="#owl-recently-viewed" class="slider-prev btn-prev fa fa-angle-left"></a>
+                    <a href="#next" data-target="#owl-recently-viewed" class="slider-next btn-next fa fa-angle-right"></a>
+                </div>
+            </div><!-- /.title-nav -->
 
-				<div class="no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-						<div class="ribbon blue"><span>new!</span></div> 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-12.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">cinemizer OLED 3D virtual reality TV Video</a>
-							</div>
-							<div class="brand">zeiss</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
+            <div id="owl-recently-viewed" class="owl-carousel product-grid-holder">
+            <?php foreach($data['all'] as $pro): ?>
+                <div class="no-margin carousel-item product-item-holder size-small hover">
+                    <div class="product-item">
+                        <?php if ($pro->ishot): ?>
+                        <div class="ribbon red"><span>HOT</span></div>
+                        <?php endif; ?>
+                        <?php if ($pro->issale): ?>
+                        <div class="ribbon green"><span>sale</span></div>
+                        <?php endif; ?>
 
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
+                        <div class="image">
+                            <img alt="<?php echo $pro->title ?>" src="<?php echo 'http://'.$pro->cover ?>-covermiddle" data-echo="<?php echo $pro->cover ?>-covermiddle" />
+                        </div>
+                        <div class="body">
+                            <div class="title">
+                            <a href="<?php echo yii\helpers\Url::to(['product/detail', 'productid' => $pro->productid]) ?>"><?php echo $pro->title ?></a>
+                            </div>
+                        </div>
+                        <div class="prices">
+                        <div class="price-current text-right">￥<?php echo $pro->saleprice ?></div>
+                        </div>
+                        <div class="hover-area">
+                            <div class="add-cart-button">
+                                <a href="<?php echo yii\helpers\Url::to(['cart/add', 'productid' => $pro->productid]) ?>" class="le-button">加入购物车</a>
+                            </div>
+                        </div>
+                    </div><!-- /.product-item -->
+                </div><!-- /.product-item-holder -->
+                <?php endforeach; ?>
+            </div><!-- /#recently-carousel -->
 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-13.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">s2340T23" full HD multi-Touch Monitor</a>
-							</div>
-							<div class="brand">dell</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-						<div class="ribbon blue"><span>new!</span></div> 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-14.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">kardon BDS 7772/120 integrated 3D</a>
-							</div>
-							<div class="brand">harman</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-						<div class="ribbon green"><span>bestseller</span></div> 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-15.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">netbook acer travel B113-E-10072</a>
-							</div>
-							<div class="brand">acer</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-16.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">iPod touch 5th generation,64GB, blue</a>
-							</div>
-							<div class="brand">apple</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-13.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">s2340T23" full HD multi-Touch Monitor</a>
-							</div>
-							<div class="brand">dell</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-
-				<div class=" no-margin carousel-item product-item-holder size-small hover">
-					<div class="product-item">
-						<div class="ribbon blue"><span>new!</span></div> 
-						<div class="image">
-							<img alt="" src="/assets/home/images/blank.gif" data-echo="/assets/home/images/products/product-14.jpg" />
-						</div>
-						<div class="body">
-							<div class="title">
-								<a href="single-product.html">kardon BDS 7772/120 integrated 3D</a>
-							</div>
-							<div class="brand">harman</div>
-						</div>
-						<div class="prices">
-							<div class="price-current text-right">￥1199.00</div>
-						</div>
-						<div class="hover-area">
-							<div class="add-cart-button">
-								<a href="single-product.html" class="le-button">加入购物车</a>
-							</div>
-							<div class="wish-compare">
-								<a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-								<a class="btn-add-to-compare" href="#">Compare</a>
-							</div>
-						</div>
-					</div><!-- /.product-item -->
-				</div><!-- /.product-item-holder -->
-			</div><!-- /#recently-carousel -->
-
-		</div><!-- /.carousel-holder -->
-	</div><!-- /.container -->
+        </div><!-- /.carousel-holder -->
+    </div><!-- /.container -->
 </section><!-- /#recently-reviewd -->
 <!-- ========================================= RECENTLY VIEWED : END ========================================= -->
-<!-- ========================================= TOP BRANDS ========================================= -->
+
+<!-- ========================================= 热门品牌 ========================================= -->
 <section id="top-brands" class="wow fadeInUp">
     <div class="container">
         <div class="carousel-holder" >
-            
+
             <div class="title-nav">
                 <h1>热门品牌</h1>
                 <div class="nav-holder">
@@ -1303,54 +431,54 @@
                     <a href="#next" data-target="#owl-brands" class="slider-next btn-next fa fa-angle-right"></a>
                 </div>
             </div><!-- /.title-nav -->
-            
+
             <div id="owl-brands" class="owl-carousel brands-carousel">
-                
+
                 <div class="carousel-item">
                     <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-01.jpg" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-02.jpg" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-03.jpg" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-04.jpg" />
+                        <img alt="" src="/assets/images/brands/brand-01.jpg" />
                     </a>
                 </div><!-- /.carousel-item -->
 
                 <div class="carousel-item">
                     <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-01.jpg" />
+                        <img alt="" src="/assets/images/brands/brand-02.jpg" />
                     </a>
                 </div><!-- /.carousel-item -->
 
                 <div class="carousel-item">
                     <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-02.jpg" />
+                        <img alt="" src="/assets/images/brands/brand-03.jpg" />
                     </a>
                 </div><!-- /.carousel-item -->
 
                 <div class="carousel-item">
                     <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-03.jpg" />
+                        <img alt="" src="/assets/images/brands/brand-04.jpg" />
                     </a>
                 </div><!-- /.carousel-item -->
 
                 <div class="carousel-item">
                     <a href="#">
-                        <img alt="" src="/assets/home/images/brands/brand-04.jpg" />
+                        <img alt="" src="/assets/images/brands/brand-01.jpg" />
+                    </a>
+                </div><!-- /.carousel-item -->
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img alt="" src="/assets/images/brands/brand-02.jpg" />
+                    </a>
+                </div><!-- /.carousel-item -->
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img alt="" src="/assets/images/brands/brand-03.jpg" />
+                    </a>
+                </div><!-- /.carousel-item -->
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img alt="" src="/assets/images/brands/brand-04.jpg" />
                     </a>
                 </div><!-- /.carousel-item -->
 
@@ -1359,4 +487,4 @@
         </div><!-- /.carousel-holder -->
     </div><!-- /.container -->
 </section><!-- /#top-brands -->
-<!-- ========================================= TOP BRANDS : END ========================================= -->		
+<!-- ========================================= 热门品牌 : END ========================================= -->		

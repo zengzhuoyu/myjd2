@@ -10,7 +10,7 @@ use app\models\Category;
 
 use app\modules\controllers\CommonController;
 
-class CategoryController extends Controller
+class CategoryController extends CommonController
 {
 
     public function actionList()
