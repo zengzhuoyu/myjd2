@@ -6,10 +6,10 @@
 <!DOCTYPE html>
 <html class="login-bg">
 <head>
-	<title>慕课商城 - 后台管理</title>
-    
+	<title>京东商城 - 后台管理</title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
+
     <!-- bootstrap -->
     <link href="assets/admin/css/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/admin/css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
@@ -22,7 +22,7 @@
 
     <!-- libraries -->
     <link rel="stylesheet" type="text/css" href="assets/admin/css/lib/font-awesome.css" />
-    
+
     <!-- this page specific styles -->
     <link rel="stylesheet" href="assets/admin/css/compiled/signin.css" type="text/css" media="screen" />
 
@@ -43,8 +43,8 @@
             ]); ?>
                 <div class="span4 box">
                     <div class="content-wrap">
-                        <h6>慕课商城 - 修改密码</h6>
-                        <?php 
+                        <h6>京东商城 - 修改密码</h6>
+                        <?php
                             if(Yii::$app->session->hasFlash('info')){
                                 echo Yii::$app->session->getFlash('info');
                         }?>

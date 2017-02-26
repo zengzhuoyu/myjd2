@@ -87,7 +87,7 @@
         <i class="fa fa-phone"></i> (+086) 123 456 7890
     </div>
     <div class="contact inline">
-        <i class="fa fa-envelope"></i> contact@<span class="le-color">jason.com</span>
+        <i class="fa fa-envelope"></i> contact@<span class="le-color">zengzy.com</span>
     </div>
 </div><!-- /.contact-row -->
 <!-- ============================================================= SEARCH AREA ============================================================= -->
@@ -301,15 +301,15 @@
                 <!-- ============================================================= CONTACT INFO ============================================================= -->
 <div class="contact-info">
     <div class="footer-logo">
-        <img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/>
+        <!-- <img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/> -->
     </div><!-- /.footer-logo -->
     
-    <p class="regular-bold"> 请通过电话，电子邮件随时联系我们</p>
+    <!-- <p class="regular-bold"> 请通过电话，电子邮件随时联系我们</p> -->
     
-    <p>
+<!--     <p>
         西城区二环到三环德胜门外大街10号TCL大厦3层(马甸桥南), 北京市西城区, 中国
         <br>慕课网 (QQ群:416465236)
-    </p>
+    </p> -->
     
     <!--<div class="social-icons">
         <h3>Get in touch</h3>
@@ -370,7 +370,8 @@
         <div class="container">
             <div class="col-xs-12 col-sm-6 no-margin">
                 <div class="copyright">
-                    &copy; <a href="<?php echo yii\helpers\Url::to(['index/index']) ?>">Imooc.com</a> - all rights reserved
+                    &copy; 
+                    <!-- <a href="<?php echo yii\helpers\Url::to(['index/index']) ?>">Imooc.com</a> - all rights reserved -->
                 </div><!-- /.copyright -->
             </div>
             <div class="col-xs-12 col-sm-6 no-margin">

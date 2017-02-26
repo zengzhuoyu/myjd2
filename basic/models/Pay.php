@@ -11,7 +11,7 @@ class Pay{
         $amount = Order::find()->where('orderid = :oid', [':oid' => $orderid])->one()->amount;
         if (!empty($amount)) {
             $alipay = new \AlipayPay();
-            $giftname = "慕课商城";//商品名称
+            $giftname = "京东商城";//商品名称
             $data = OrderDetail::find()->where('orderid = :oid', [':oid' => $orderid])->all();
             $body = "";
             foreach($data as $pro) {

@@ -1,4 +1,4 @@
-<?php 
+<?php
 	namespace app\modules\models;
 
 	use yii\db\ActiveRecord;
@@ -39,12 +39,12 @@
 				['adminemail','required','message' => '电子邮箱不能为空','on'=>['seekpass','adminadd','changeemail']],
 				['adminemail','email','message' => '电子邮箱格式不正确','on'=>['seekpass','adminadd','changeemail']],
 				['adminemail','unique','message' => '电子邮箱已被注册','on'=>['adminadd','changeemail']],
-				['adminemail','validateEmail','on'=>'seekpass'],		
+				['adminemail','validateEmail','on'=>'seekpass'],
 				['repass','required','message' => '确认密码不能不为空','on' => ['changepass','adminadd']],//确认密码与新密码一致，这里就可以不用判断了
 				['repass','compare','compareAttribute' => 'adminpass','message'=>'两次输入密码不一致','on' => ['changepass','adminadd']],
 				['createtime', 'safe']
 			];
-		}		
+		}
 
 		//验证密码
 		public function validatePass()
@@ -77,7 +77,7 @@
 
 		//登录操作
 		public function login($data)
-		{	
+		{
 			// 指定属于自己的验证场景:登录时不需要用到找回密码的ruels验证字段
 			$this->scenario = "login";
 
@@ -129,14 +129,14 @@
 				$mailer = Yii::$app->mailer->compose('seekpass',['adminuser' => $data['Admin']['adminuser'],'time' => $time,'token' => $token]);
 				$mailer->setFrom('zengzhuoyu24@163.com');//发送邮件的邮箱
 				$mailer->setTo($data['Admin']['adminemail']);//发送给谁
-				$mailer->setSubject('慕课商城-找回密码');//邮件主题
+				$mailer->setSubject('京东商城-找回密码');//邮件主题
 				if($mailer->send()){
 					return true;
 				}
 			}
 
 			return false;
-		}		
+		}
 
 		// 生成token
 		public function createToken($adminuser,$time)
@@ -160,7 +160,7 @@
 			}
 
 			return false;
-		}		
+		}
 
 		//添加管理员
 		public function reg($data)
@@ -179,7 +179,7 @@
 				return false;
 			}
 			return false;
-		}		
+		}
 
 		//当前登录管理员邮箱的修改
 		public function changeEmail($data)
@@ -190,6 +190,6 @@
 		        return (bool) $this->updateAll(['adminemail' => $this->adminemail], 'adminuser = :user', [':user' => $this->adminuser]);
 		    }
 		    return false;
-		}		
+		}
 	}
  ?>
