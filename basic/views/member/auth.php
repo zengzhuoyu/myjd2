@@ -16,7 +16,7 @@
 					<div class="social-auth-buttons">
 						<div class="row">
 							<div class="col-md-6">
-								<button class="btn-block btn-lg btn btn-facebook"><i class="fa fa-qq"></i> 使用QQ账号登录</button>
+								<button id='login_qq' class="btn-block btn-lg btn btn-facebook"><i class="fa fa-qq"></i> 使用QQ账号登录</button>
 							</div>
 							<div class="col-md-6">
 								<button class="btn-block btn-lg btn btn-twitter"><i class="fa fa-weibo"></i> 使用新浪微博账号登录</button>
@@ -97,3 +97,9 @@
 	</div><!-- /.container -->
 </main><!-- /.authentication -->
 <!-- ========================================= MAIN : END ========================================= -->		
+<script>
+    var qqbtn = document.getElementById("login_qq");
+    qqbtn.onclick = function(){
+        window.location.href="<?php echo yii\helpers\Url::to(['member/qqlogin']) ?>";//jq的跳转
+    }
+</script>

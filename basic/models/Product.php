@@ -11,7 +11,7 @@ class Product extends ActiveRecord
     const DOMAIN = 'ol56w7wdb.bkt.clouddn.com';
     const BUCKET = 'mukeshop';
 
-    // public $cate;
+    public $cate;//?去掉的前台首页显示有误
 
     public function rules()
     {

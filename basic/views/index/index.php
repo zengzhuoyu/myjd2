@@ -1,50 +1,52 @@
 <div id="top-banner-and-menu">
 	<div class="container">
-		
+
 		<div class="col-xs-12 col-sm-4 col-md-3 sidemenu-holder">
 			<!-- ================================== TOP NAVIGATION ================================== -->
-<div class="side-menu animate-dropdown">
-    <div class="head"><i class="fa fa-list"></i> 所有分类 </div>        
-    <nav class="yamm megamenu-horizontal" role="navigation">
-        <ul class="nav">
-            <?php
-                foreach($this->params['menu'] as $top) :
-            ?>
-                        <li class="dropdown menu-item">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $top['title'] ?></a>
-                            <ul class="dropdown-menu mega-menu">
-                                <li class="yamm-content">
-                                    <!-- ================================== MEGAMENU VERTICAL ================================== -->
-            <div class="row">
-                <div class="col-xs-12 col-lg-4">
-                    <ul>
-            <?php foreach($top['children'] as $child): ?>
-                        <li><a href="<?php echo yii\helpers\Url::to(['product/index', 'cateid' => $child['cateid']]) ?>"><?php echo $child['title'] ?></a></li>
-            <?php endforeach; ?>
-                    </ul>
-                </div>
-                <div class="dropdown-banner-holder">
-                    <a href="#"><img alt="" src="/assets/images/banners/banner-side.png" /></a>
-                </div>
-            </div>
-            <!-- ================================== MEGAMENU VERTICAL ================================== -->                        
-                                </li>
-                            </ul>
-                        </li><!-- /.menu-item -->
-            <?php
-                endforeach;
-            ?>
-        </ul><!-- /.nav -->
-    </nav><!-- /.megamenu-horizontal -->
-</div><!-- /.side-menu -->
-<!-- ================================== TOP NAVIGATION : END ================================== -->		</div><!-- /.sidemenu-holder -->
+              <div class="side-menu animate-dropdown">
+                  <div class="head"><i class="fa fa-list"></i> 所有分类 </div>
+                  <nav class="yamm megamenu-horizontal" role="navigation">
+                      <ul class="nav">
+                          <?php
+                              foreach($this->params['menu'] as $top) :
+                          ?>
+                                      <li class="dropdown menu-item">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $top['title'] ?></a>
+                                          <ul class="dropdown-menu mega-menu">
+                                              <li class="yamm-content">
+                                                  <!-- ================================== MEGAMENU VERTICAL ================================== -->
+                          <div class="row">
+                              <div class="col-xs-12 col-lg-4">
+                                  <ul>
+                                    <?php foreach($top['children'] as $child): ?>
+                                            <li><a href="<?php echo yii\helpers\Url::to(['product/index', 'cateid' => $child['cateid']]) ?>"><?php echo $child['title'] ?></a></li>
+                                    <?php endforeach; ?>
+                                  </ul>
+                              </div>
+                              <div class="dropdown-banner-holder">
+                                  <a href="#"><img alt="" src="/assets/images/banners/banner-side.png" /></a>
+                              </div>
+                          </div>
+                          <!-- ================================== MEGAMENU VERTICAL ================================== -->
+                                              </li>
+                                          </ul>
+                                      </li><!-- /.menu-item -->
+                          <?php
+                              endforeach;
+                          ?>
+                      </ul><!-- /.nav -->
+                  </nav><!-- /.megamenu-horizontal -->
+              </div><!-- /.side-menu -->
+              <!-- ================================== TOP NAVIGATION : END ================================== -->
+
+        </div><!-- /.sidemenu-holder -->
 
 		<div class="col-xs-12 col-sm-8 col-md-9 homebanner-holder">
 			<!-- ========================================== SECTION – HERO ========================================= -->
-			
+
 <div id="hero">
 	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-		
+
 		<div class="item" style="background-image: url(/assets/home/images/sliders/slider01.jpg);">
 			<div class="container-fluid">
 				<div class="caption vertical-center text-left">
@@ -89,8 +91,8 @@
 
 	</div><!-- /.owl-carousel -->
 </div>
-			
-<!-- ========================================= SECTION – HERO : END ========================================= -->			
+
+<!-- ========================================= SECTION – HERO : END ========================================= -->
 		</div><!-- /.homebanner-holder -->
 
 	</div><!-- /.container -->
@@ -138,10 +140,10 @@
                             <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
                                 <div class="product-item">
                                     <?php if ($pro->ishot): ?>
-                                    <div class="ribbon red"><span>HOT</span></div> 
+                                        <div class="ribbon red"><span>HOT</span></div>
                                     <?php endif; ?>
                                     <?php if ($pro->issale): ?>
-                                    <div class="ribbon green"><span>sale</span></div> 
+                                        <div class="ribbon green"><span>sale</span></div>
                                     <?php endif; ?>
 
                                     <div class="image">
@@ -170,7 +172,7 @@
                         <a class="btn-loadmore" href="#">
                             <i class="fa fa-plus"></i>
                             查看更多</a>
-                    </div> 
+                    </div>
 
                 </div>
 
@@ -180,10 +182,10 @@
                         <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
                             <div class="product-item">
                                 <?php if ($pro->ishot): ?>
-                                <div class="ribbon red"><span>HOT</span></div> 
+                                <div class="ribbon red"><span>HOT</span></div>
                                 <?php endif; ?>
                                 <?php if ($pro->issale): ?>
-                                <div class="ribbon green"><span>sale</span></div> 
+                                <div class="ribbon green"><span>sale</span></div>
                                 <?php endif; ?>
 
                                 <div class="image">
@@ -212,7 +214,7 @@
                         <a class="btn-loadmore" href="#">
                             <i class="fa fa-plus"></i>
                             查看更多</a>
-                    </div> 
+                    </div>
 
                 </div>
 
@@ -222,10 +224,10 @@
                         <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
                             <div class="product-item">
                                 <?php if ($pro->ishot): ?>
-                                <div class="ribbon red"><span>HOT</span></div> 
+                                <div class="ribbon red"><span>HOT</span></div>
                                 <?php endif; ?>
                                 <?php if ($pro->issale): ?>
-                                <div class="ribbon green"><span>sale</span></div> 
+                                <div class="ribbon green"><span>sale</span></div>
                                 <?php endif; ?>
 
                                 <div class="image">
@@ -250,13 +252,13 @@
                         </div>
                     <?php endforeach; ?>
 
-                        
+
                     </div>
                     <div class="loadmore-holder text-center">
                         <a class="btn-loadmore" href="#">
                             <i class="fa fa-plus"></i>
                             查看更多</a>
-                    </div> 
+                    </div>
                 </div>
 
             </div>
@@ -487,4 +489,4 @@
         </div><!-- /.carousel-holder -->
     </div><!-- /.container -->
 </section><!-- /#top-brands -->
-<!-- ========================================= 热门品牌 : END ========================================= -->		
+<!-- ========================================= 热门品牌 : END ========================================= -->

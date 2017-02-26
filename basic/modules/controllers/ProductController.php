@@ -36,7 +36,7 @@ class ProductController extends CommonController
         
         if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();
-            $pics = $this->upload();
+            $pics = $this->_upload();
 
             if (!$pics) {
                 $model->addError('cover', '封面不能为空');
@@ -55,7 +55,7 @@ class ProductController extends CommonController
         return $this->render("add", ['opts' => $list, 'model' => $model]);
     }
 
-    private function upload()
+    private function _upload()
     {
         if ($_FILES['Product']['error']['cover'] > 0) {//图片封面：说明上传有错误
             return false;
@@ -129,6 +129,7 @@ class ProductController extends CommonController
 
     }
 
+    //商品详情页里的删除各个图片
     public function actionRemovepic()
     {
         $key = Yii::$app->request->get("key");

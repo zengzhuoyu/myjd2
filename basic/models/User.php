@@ -35,10 +35,12 @@ class User extends ActiveRecord
     public function validatePass()
     {
         if (!$this->hasErrors()) {
-            $loginname = "username";
-            if (preg_match('/@/', $this->loginname)) {
+            $loginname = "username";//如果用户输入的是用户名
+
+            if (preg_match('/@/', $this->loginname)) {//如果用户输入的是邮箱
                 $loginname = "useremail";
             }
+            //where字符串拼接
             $data = self::find()->where($loginname.' = :loginname and userpass = :pass', [':loginname' => $this->loginname, ':pass' => md5($this->userpass)])->one();
             if (is_null($data)) {
                 $this->addError("userpass", "用户名或者密码错误");
@@ -57,6 +59,7 @@ class User extends ActiveRecord
         ];
     }
 
+    //注册
     public function reg($data, $scenario = 'reg')
     {
         $this->scenario = $scenario;
@@ -75,7 +78,7 @@ class User extends ActiveRecord
 
     public function getProfile()
     {
-        return $this->hasOne(Profile::className(), ['userid' => 'userid']);
+        return $this->hasOne(Profile::className(), ['userid' => 'userid']);//主副表是唯一关联的，所以用管理模型
     }
 
     public function login($data)
@@ -88,14 +91,14 @@ class User extends ActiveRecord
             session_set_cookie_params($lifetime);
             $session['loginname'] = $this->loginname;
             $session['isLogin'] = 1;
-            return (bool)$session['isLogin'];
+            return (bool) $session['isLogin'];
         }
         return false;
     }
 
     public function regByMail($data)
     {
-        $data['User']['username'] = 'imooc_'.uniqid();
+        $data['User']['username'] = 'myjd2_'.uniqid();
         $data['User']['userpass'] = uniqid();
         $this->scenario = 'regbymail';
         if ($this->load($data) && $this->validate()) {

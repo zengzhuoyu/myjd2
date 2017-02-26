@@ -105,12 +105,15 @@ class Category extends ActiveRecord
 
     public static function getMenu()
     {
+        //查找出所有的顶级分类
         $top = self::find()->where('parentid = :pid', [":pid" => 0])->limit(11)->orderby('createtime asc')->asArray()->all();
+
         $data = [];
         foreach((array)$top as $k=>$cate) {
             $cate['children'] = self::find()->where("parentid = :pid", [":pid" => $cate['cateid']])->limit(10)->asArray()->all();
             $data[$k] = $cate;
         }
+        
         return $data;
     }
 

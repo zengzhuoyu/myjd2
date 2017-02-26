@@ -10,7 +10,7 @@
 	    <meta name="keywords" content="">
 	    <meta name="robots" content="all">
 
-	    <title>商品分类 - 慕课商城</title>
+	    <title>商品分类 - 京东商城</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="/assets/home/css/bootstrap.min.css">
@@ -72,7 +72,7 @@
 			<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
 	<a href="<?php echo yii\helpers\Url::to(['index/index']) ?>">
-		<img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/>
+		<!-- <img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/> -->
 	</a>
 </div><!-- /.logo -->
 <!-- ============================================================= LOGO : END ============================================================= -->		</div><!-- /.logo-holder -->
@@ -137,7 +137,7 @@
             </a>
 
             <!--dropdown-menu-->
-            <ul class="">
+            <ul class="dropdown-menu">
                 <?php foreach((array)$this->params['cart']['products'] as $product): ?>
                         <li>
                             <div class="basket-item">
@@ -454,22 +454,23 @@
             $(".billing-address").slideDown();
         });
         $("li.disabled").hide();
-        $(".expressshow").hide();//
-        $(".express").click(function(e){
-            e.preventDefault();
-        });
-        $(".express").hover(function(){//
+        $(".expressshow").hide();//jq也可以使元素隐藏
+        // $(".express").click(function(e){
+        //     e.preventDefault();
+        // });
+        $(".express").hover(function(){//鼠标移入移出事件
             var a = $(this);
             if ($(this).attr('data') != 'ok') {
                 $.get('<?php echo yii\helpers\Url::to(['order/getexpress']) ?>', {'expressno':$(this).attr('data')}, function(res) {
                     var str = "";
                     if (res.message = 'ok') {
                         for(var i = 0;i<res.data.length;i++) {
+                            // res.data.length 信息条数
                             str += "<p>"+res.data[i].context+" "+res.data[i].time+" </p>";
                         }
                     }
                     a.find(".expressshow").html(str);
-                    a.attr('data', 'ok');//避免ajax重复请求
+                    a.attr('data', 'ok');//给属性赋值 一次的html赋值内容就会一直存在了，避免ajax重复请求
                 }, 'json');
             }
             $(this).find(".expressshow").show();

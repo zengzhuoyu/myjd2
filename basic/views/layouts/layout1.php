@@ -10,7 +10,7 @@
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>慕课商城</title>
+	    <title>京东商城</title>
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="/assets/home/css/bootstrap.min.css">
 	    
@@ -75,7 +75,7 @@
 			<!-- ============================================================= LOGO ============================================================= -->
                         <div class="logo">
                         	<a href="<?php echo yii\helpers\Url::to(['index/index']) ?>">
-                        		<img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/>
+                        		<!-- <img alt="logo" src="/assets/home/images/logo.PNG" width="233" height="54"/> -->
                         	</a>
                         </div><!-- /.logo -->
 <!-- ============================================================= LOGO : END ============================================================= -->		
@@ -140,7 +140,7 @@
                 </div>
             </a>
 
-            <ul class="">
+            <ul class="dropdown-menu">
 
                 <?php foreach((array)$this->params['cart']['products'] as $product): ?>
                                 <li>
@@ -410,22 +410,25 @@
         $("#createlink").click(function(){
             $(".billing-address").slideDown();
         });
+
+        //购物车商品数量的增加
         $(".minus").click(function(){
             var cartid = $("input[name=productnum]").attr('id');
-            var num = parseInt($("input[name=productnum]").val()) - 1;
+            var num = parseInt($("input[name=productnum]").val()) - 1;//js转换成整数
             if (parseInt($("input[name=productnum]").val()) <= 1) {
                 var num = 1;
             }
-            var total = parseFloat($(".value.pull-right span").html());
+            var total = parseFloat($(".value.pull-right span").html());//js转换成浮点数
             var price = parseFloat($(".price span").html());
             changeNum(cartid, num);
             var p = total - price;
             if (p < 0) {
                 var p = "0";
             }
-            $(".value.pull-right span").html(p + "");
+            $(".value.pull-right span").html(p + "");//通过+"",使整数转换成字符串型
             $(".value.pull-right.ordertotal span").html(p + "");
         });
+        //购物车商品数量的减少
         $(".plus").click(function(){
             var cartid = $("input[name=productnum]").attr('id');
             var num = parseInt($("input[name=productnum]").val()) + 1;
@@ -439,8 +442,10 @@
         function changeNum(cartid, num)
         {
             $.get('<?php echo yii\helpers\Url::to(['cart/mod']) ?>', {'productnum':num, 'cartid':cartid}, function(data){
-                location.reload();
-            });
+                // location.reload();//刷新页面
+                    alert(data.msg);
+
+            },'json');
         }
         var total = parseFloat($("#total span").html());
         $(".le-radio.express").click(function(){
